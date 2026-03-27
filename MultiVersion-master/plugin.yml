@@ -1,0 +1,11 @@
+name: MultiVersion
+api: 5.0.0
+main: AkmalFairuz\MultiVersion\Loader
+version: 5.0.0
+
+description: MultiVersion protocol bridge for PMMP API 5 with limited protocol support.
+mcpe-protocol: 944
+author: AkmalFairuz
+permissions:
+  multiversion.command:
+    default: op

@@ -1,0 +1,9 @@
+# If async compression/decompression enabled packet will be delayed 1-2 tick and reduce lag in the main thread.
+async_batch_decompression: true
+async_batch_compress: true
+async_batch_threshold: 1024
+
+# Supported protocol list in this build: 944, 942, 910, 898
+# example=
+#   disabled_protocols: [944]
+disabled_protocols: []
